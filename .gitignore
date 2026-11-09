@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Data and artifacts (rebuilt by command, never committed)
+/data/
+/artifacts/
+*.pt
+*.ckpt
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Infra state
+.terraform/
+*.tfstate
+*.tfstate.*
+cdk.out/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
